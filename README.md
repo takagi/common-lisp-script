@@ -6,7 +6,7 @@ Common Lisp Script provides isomorphism between browser side and server side to 
 
 - Isomorphism in Common Lisp between browser side and server side.
 - Proper interbridging between Common Lisp and javascript.
-- Integration management into HTML file.
+- Integration management into HTML files.
 
 # Scoping
 
