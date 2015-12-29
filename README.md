@@ -21,6 +21,9 @@ Common Lisp Script targets the second of following considerable scopes.
 
 - Common Lisp Script will be based on [jscl](https://github.com/davazp/jscl), so its specification compliance depends on jscl.
 
-## Milestones
+## To be considered
 
-bla bla bla
+- Where to place source codes to be shared in both browser side and server side.
+- ASDF System dependency management.
+- Package management in both browser side and server side. (needed?)
+
