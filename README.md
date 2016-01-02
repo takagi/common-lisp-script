@@ -8,7 +8,7 @@ Common Lisp Script provides isomorphism between browser side and server side to 
 - Proper interbridging between Common Lisp and javascript.
 - Separate compilation and dependency management.
 - Integration management into HTML files.
-- Easy debugging.
+- Ease of debugging.
 - Profiling.
 
 ## Scoping
@@ -18,10 +18,6 @@ Common Lisp Script targets the second of following considerable scopes.
 - Abstraction including HTML and CSS, not only javascript.
 - **Isomorphism in Common Lisp between browser side and server side.**
 - Expressing javascript in S-expression (Parenscript).
-
-## Based on
-
-- Common Lisp Script will be based on [jscl](https://github.com/davazp/jscl), so its specification compliance depends on jscl.
 
 ## Milestones
 
@@ -51,3 +47,7 @@ Common Lisp Script targets the second of following considerable scopes.
 
 9. Increasing specification compatibility
  - Better Common Lisp specification compliance.
+
+## Based on
+
+- Common Lisp Script will be based on [jscl](https://github.com/davazp/jscl), so its specification compliance depends on jscl.
