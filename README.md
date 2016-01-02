@@ -51,3 +51,8 @@ Common Lisp Script targets the second of following considerable scopes.
 ## Based on
 
 - Common Lisp Script will be based on [jscl](https://github.com/davazp/jscl), so its specification compliance depends on jscl.
+
+## Futher more
+
+- ReactCL
+  - Facebook's React interface like ClojureScript's Om.
