@@ -48,9 +48,16 @@ Common Lisp Script targets the second of following considerable scopes.
 9. Increasing specification compatibility
  - Better Common Lisp specification compliance.
 
-## Based on
+## Approaches
 
-- Common Lisp Script will be based on [jscl](https://github.com/davazp/jscl), so its specification compliance depends on jscl.
+a. Based on jscl
+  - Based on [jscl](https://github.com/davazp/jscl), a Lisp to javascript compiler working on javascript.
+  - The browser loads the compiler as javascript source file.
+  - The compiler on javascript VM evaluates jscl source codes.
+
+b. Another Common Lisp to javascript compiler
+  - Provide another Common Lisp to javascript compiler working on Common Lisp.
+  - The browser loads compiled javascript source files.
 
 ## Futher more
 
