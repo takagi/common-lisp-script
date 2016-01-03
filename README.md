@@ -26,6 +26,7 @@ Common Lisp Script targets the second of following considerable scopes.
   - Raw jscl on javascript VM is a bit slow for practical use.
   - Implementing another CL-to-js compiler would take too long time.
   - Find that jscl can be optimized enough for practical use.
+  - See Approaches.
 
 1. Compiling a file
   - Compile a Common Lisp source file to a javascript source file.
