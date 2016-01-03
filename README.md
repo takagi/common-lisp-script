@@ -65,6 +65,7 @@ a. Based on jscl
 b. Another Common Lisp to javascript compiler
   - Provide another Common Lisp to javascript compiler working on Common Lisp.
   - The browser loads compiled javascript source files.
+  - It might be based on jscl's `:host` code.
 
 ## Futher more
 
