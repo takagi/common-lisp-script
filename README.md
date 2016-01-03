@@ -10,6 +10,7 @@ Common Lisp Script provides isomorphism between browser side and server side to 
 - Integration management into HTML files.
 - Ease of debugging.
 - Profiling.
+- Documemtation.
 
 ## Scoping
 
@@ -19,33 +20,38 @@ Common Lisp Script targets the second of following considerable scopes.
 - **Isomorphism in Common Lisp between browser side and server side.**
 - Expressing javascript in S-expression (Parenscript).
 
-## Milestones
+## Milestones (not fixed)
+
+1. Finding jscl can be optimized enough for practical use.
+  - Raw jscl on javascript VM is a bit slow for practical use.
+  - Implementing another CL-to-js compiler would take too long time.
+  - Find that jscl can be optimized enough for practical use.
 
 1. Compiling a file
   - Compile a Common Lisp source file to a javascript source file.
 
-2. Compiling multiple files
+1. Compiling multiple files
   - Compile multiple Common Lisp source files to a javascript source file.
 
-3. Compiling a system
+1. Compiling a system
   - Compile a ASDF system to a javascript source file with resolving dependency.
 
-4. Compiling multiple systems
+1. Compiling multiple systems
   - Compile multiple ASDF systems to a javascript source file with resolving dependency.
 
-5. Bridging from Common Lisp to javascript
+1. Bridging from Common Lisp to javascript
   - Invoke javascript functions from Common Lisp.
 
-6. Bridging from javascript to Common Lisp
+1. Bridging from javascript to Common Lisp
   - Invoke Common Lisp functions from javascript.
 
-7. Integration into web application framework
+1. Integration into web application framework
  -  - Integrate into web application framework.
 
-8. Optimization
+1. Optimization
  - Dead code elimination.
 
-9. Increasing specification compatibility
+1. Increasing specification compatibility
  - Better Common Lisp specification compliance.
 
 ## Approaches
