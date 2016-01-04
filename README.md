@@ -41,11 +41,16 @@ c. ECL + Emscripten
 
 ## Milestones (not fixed)
 
-1. Finding jscl can be optimized enough for practical use.
-  - Raw jscl on javascript VM is a bit slow for practical use.
+1. Partially works, even not efficiently enough.
+  - This is already achieved with jscl, see `sample/sample01` application.
+  - With partial specification compliance.
+  - Take a bit long time for practical use to compile functions on jscl on javascript VM.
+
+1. Partially works, efficiently enough.
+  - Find jscl can be optimized enough for practical use.
+  - With partial specification compliance.
   - Implementing another CL-to-js compiler would take too long time.
-  - Find that jscl can be optimized enough for practical use.
-  - See Approaches.
+  - See 'Approaches'.
 
 1. Compiling a file
   - Compile a Common Lisp source file to a javascript source file.
@@ -66,7 +71,7 @@ c. ECL + Emscripten
   - Invoke Common Lisp functions from javascript.
 
 1. Integration into web application framework
- -  - Integrate into web application framework.
+ - Integrate into web application framework.
 
 1. Optimization
  - Dead code elimination.
@@ -80,11 +85,11 @@ c. ECL + Emscripten
 
 |Milestone|Task|Who does?|Status|
 |---|---|---|---|
-|1.|jscl optimization|@macdavid313|Running|
-|1.|jscl optimization|N/A|Open|
-|1.|Trying Google clusure compiler|N/A|Open|
-|1.|Trying ECL + Emscripten|N/A|Open|
-|10.|Increasing jscl spec compliance|N/A|Open|
+|2.|jscl optimization|@macdavid313|Running|
+|2.|jscl optimization|N/A|Open|
+|2.|Trying Google clusure compiler|N/A|Open|
+|2.|Trying ECL + Emscripten|N/A|Open|
+|11.|Increasing jscl spec compliance|N/A|Open|
 |N/A|More sample applications|N/A|Open|
 
 ### Increasing jscl's specification compliance
