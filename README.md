@@ -57,7 +57,7 @@ Common Lisp Script targets the second of following considerable scopes.
 1. Increasing specification compatibility
  - Better Common Lisp specification compliance.
 
-## Tasks and status
+### Tasks and status
 
     Status ::= Open|Running|Done
 
