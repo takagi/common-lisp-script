@@ -54,6 +54,7 @@ c. ECL + Emscripten
 
 1. Compiling a file
   - Compile a Common Lisp source file to a javascript source file.
+  - Already achieved at Milestone 1.
 
 1. Compiling multiple files
   - Compile multiple Common Lisp source files to a javascript source file.
