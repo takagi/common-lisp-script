@@ -2,6 +2,8 @@
 
 Common Lisp Script provides isomorphism between browser side and server side to Common Lisp as javascript's node.js and Clojure's ClojureScript.
 
+** Some of this file will be replaced in Issues and Wiki. **
+
 ## To be achieved
 
 - Isomorphism in Common Lisp between browser side and server side.
@@ -64,6 +66,7 @@ Common Lisp Script targets the second of following considerable scopes.
 |1.|jscl optimization|@macdavid313|Running|
 |1.|jscl optimization|N/A|Open|
 |1.|Trying Google clusure compiler|N/A|Open|
+|10.|Increasing jscl spec compliance|N/A|Open|
 |N/A|More sample applications|N/A|Open|
 
 ## Approaches
