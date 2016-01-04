@@ -55,6 +55,16 @@ Common Lisp Script targets the second of following considerable scopes.
 1. Increasing specification compatibility
  - Better Common Lisp specification compliance.
 
+## Tasks and status
+
+    Status ::= Open|Running|Done
+
+|Task|Who does?|Status|
+|---|---|---|
+|jscl optimization|David|Running|
+|Trying Google clusure compiler|N/A|Open|
+|More sample applications|N/A|Open|
+
 ## Approaches
 
 a. Based on jscl
