@@ -22,6 +22,18 @@ Common Lisp Script targets the second of following considerable scopes.
 - **Isomorphism in Common Lisp between browser side and server side.**
 - Expressing javascript in S-expression (Parenscript).
 
+## Approaches
+
+a. Based on jscl
+  - Based on [jscl](https://github.com/davazp/jscl), a Lisp to javascript compiler working on javascript.
+  - The browser loads the compiler as javascript source file.
+  - The compiler on javascript VM evaluates jscl source codes.
+
+b. Another Common Lisp to javascript compiler
+  - Provide another Common Lisp to javascript compiler working on Common Lisp.
+  - The browser loads compiled javascript source files.
+  - It might be based on jscl's `:host` code.
+
 ## Milestones (not fixed)
 
 1. Finding jscl can be optimized enough for practical use.
@@ -69,17 +81,21 @@ Common Lisp Script targets the second of following considerable scopes.
 |10.|Increasing jscl spec compliance|N/A|Open|
 |N/A|More sample applications|N/A|Open|
 
-## Approaches
+### Increasing jscl's specification compliance
 
-a. Based on jscl
-  - Based on [jscl](https://github.com/davazp/jscl), a Lisp to javascript compiler working on javascript.
-  - The browser loads the compiler as javascript source file.
-  - The compiler on javascript VM evaluates jscl source codes.
-
-b. Another Common Lisp to javascript compiler
-  - Provide another Common Lisp to javascript compiler working on Common Lisp.
-  - The browser loads compiled javascript source files.
-  - It might be based on jscl's `:host` code.
+|CLHS Chapter|foo|Implemented|Tested|Note|
+|---|---|---|---|---|
+|...|...|...|...|...|
+|6. Iteration|DO|Yes?|Yes?|N/A|
+|6. Iteration|DO*|Yes?|Yes?|N/A|
+|6. Iteration|DOTIMES|Yes?|Yes?|N/A|
+|6. Iteration|DOLIST|Yes?|Yes?|N/A|
+|6. Iteration|LOOP|No|No|N/A|
+|6. Iteration|LOOP-FINISH|No|No|N/A|
+|...|...|...|...|...|
+|8. Structures|DEFSTRUCT|No|No|Now CL::DEF!STRUCT|
+|8. Structures|COPY-STRUCTURE|No|No|N/A|
+|...|...|...|...|...|
 
 ## Futher more
 
