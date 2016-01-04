@@ -62,6 +62,7 @@ Common Lisp Script targets the second of following considerable scopes.
 |Milestone|Task|Who does?|Status|
 |---|---|---|---|
 |1.|jscl optimization|@macdavid313|Running|
+|1.|jscl optimization|N/A|Open|
 |1.|Trying Google clusure compiler|N/A|Open|
 |N/A|More sample applications|N/A|Open|
 
