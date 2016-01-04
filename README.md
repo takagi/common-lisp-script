@@ -97,6 +97,10 @@ b. Another Common Lisp to javascript compiler
 |8. Structures|COPY-STRUCTURE|No|No|N/A|
 |...|...|...|...|...|
 
+## Mailing list
+
+https://groups.google.com/forum/#!forum/common-lisp-script-dev
+
 ## Futher more
 
 - ReactCL
