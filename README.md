@@ -34,6 +34,11 @@ b. Another Common Lisp to javascript compiler
   - The browser loads compiled javascript source files.
   - It might be based on jscl's `:host` code.
 
+c. ECL + Emscripten
+  - ECL translates CL to C.
+  - Emscripten compiles C/C++ (or LLVM bitcode) to Javascript.
+  - Using both compiles CL to javascript. 
+
 ## Milestones (not fixed)
 
 1. Finding jscl can be optimized enough for practical use.
@@ -78,6 +83,7 @@ b. Another Common Lisp to javascript compiler
 |1.|jscl optimization|@macdavid313|Running|
 |1.|jscl optimization|N/A|Open|
 |1.|Trying Google clusure compiler|N/A|Open|
+|1.|Trying ECL + Emscripten|N/A|Open|
 |10.|Increasing jscl spec compliance|N/A|Open|
 |N/A|More sample applications|N/A|Open|
 
