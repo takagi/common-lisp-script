@@ -59,11 +59,11 @@ Common Lisp Script targets the second of following considerable scopes.
 
     Status ::= Open|Running|Done
 
-|Task|Who does?|Status|
-|---|---|---|
-|jscl optimization|David|Running|
-|Trying Google clusure compiler|N/A|Open|
-|More sample applications|N/A|Open|
+|Milestone|Task|Who does?|Status|
+|---|---|---|---|
+|1.|jscl optimization|David|Running|
+|1.|Trying Google clusure compiler|N/A|Open|
+|N/A|More sample applications|N/A|Open|
 
 ## Approaches
 
