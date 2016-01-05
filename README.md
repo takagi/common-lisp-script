@@ -41,20 +41,15 @@ c. ECL + Emscripten
 
 ## Milestones (not fixed)
 
-1. Partially works, even not efficiently enough.
-  - This is already achieved with jscl, see `sample/sample01` application.
-  - With partial specification compliance.
-  - Take a bit long time for practical use to compile functions on jscl on javascript VM.
-
-1. Partially works, efficiently enough.
-  - Find jscl can be optimized enough for practical use.
-  - With partial specification compliance.
-  - Implementing another CL-to-js compiler would take too long time.
-  - See 'Approaches'.
-
 1. Compiling a file
   - Compile a Common Lisp source file to a javascript source file.
-  - Already achieved at Milestone 1.
+  - Already achieved with jscl, see `sample/sample01` application.
+  - Take a bit long time for practical use to compile all functions on jscl on javascript VM.
+
+1. Compiling a file, efficiently enough.
+  - Find jscl can be optimized enough for practical use.
+  - Implementing another CL-to-js compiler would take too long time.
+  - See 'Approaches'.
 
 1. Compiling multiple files
   - Compile multiple Common Lisp source files to a javascript source file.
@@ -90,7 +85,7 @@ c. ECL + Emscripten
 |2.|jscl optimization|N/A|Open|
 |2.|Trying Google clusure compiler|N/A|Open|
 |2.|Trying ECL + Emscripten|N/A|Open|
-|11.|Increasing jscl spec compliance|N/A|Open|
+|10.|Increasing jscl spec compliance|N/A|Open|
 |N/A|More sample applications|N/A|Open|
 
 ### Increasing jscl's specification compliance
