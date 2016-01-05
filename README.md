@@ -10,7 +10,7 @@ Common Lisp Script provides isomorphism between browser side and server side to 
 - Proper interbridging between Common Lisp and javascript.
 - Separate compilation and dependency management.
 - Integration management into HTML files.
-- Ease of debugging.
+- Ease of debugging including source map.
 - Profiling.
 - Documemtation.
 
