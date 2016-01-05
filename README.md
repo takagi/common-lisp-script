@@ -39,6 +39,9 @@ c. ECL + Emscripten
   - Emscripten compiles C/C++ (or LLVM bitcode) to Javascript.
   - Using both compiles CL to javascript. 
 
+d. Pre-compiling with jscl
+  - Pre-compiling codes in the server with jscl.
+
 ## Milestones (not fixed)
 
 1. Compiling a file
@@ -82,9 +85,9 @@ c. ECL + Emscripten
 |Milestone|Task|Who does?|Status|
 |---|---|---|---|
 |2.|jscl optimization|@macdavid313|Running|
-|2.|jscl optimization|N/A|Open|
 |2.|Trying Google clusure compiler|N/A|Open|
-|2.|Trying ECL + Emscripten|N/A|Open|
+|2.|Trying ECL + Emscripten|@davazp|Running|
+|2.|Trying jscl pre-compiling|@takagi|Running|
 |10.|Increasing jscl spec compliance|N/A|Open|
 |N/A|More sample applications|N/A|Open|
 
