@@ -87,13 +87,15 @@ d. Pre-compiling with jscl
 |2.|jscl optimization|@macdavid313|Running|
 |2.|Trying Google clusure compiler|N/A|Open|
 |2.|Trying ECL + Emscripten|@davazp|Running|
-|2.|Trying jscl pre-compiling|@takagi|Running|
+|2.|Trying jscl pre-compiling|@davazp|Done|
+|2.|Applying jscl pre-compiling to sample|@takagi|Running|
 |10.|Increasing jscl spec compliance|N/A|Open|
+|N/A|Source map|N/A|Open|
 |N/A|More sample applications|N/A|Open|
 
 ### Increasing jscl's specification compliance
 
-|CLHS Chapter|foo|Implemented|Tested|Note|
+|CLHS Chapter|Element|Implemented|Tested|Note|
 |---|---|---|---|---|
 |...|...|...|...|...|
 |6. Iteration|DO|Yes?|Yes?|N/A|
