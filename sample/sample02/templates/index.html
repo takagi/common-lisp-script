@@ -1,0 +1,37 @@
+{% extends "layouts/default.html" %}
+{% block title %}ToDo | Common Lisp Script sample page{% endblock %}
+{% block content %}
+<style>
+.items li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.items input {
+  margin-right: 10px;
+}
+
+.items span {
+  margin-right: 10px;
+}
+
+.items a {
+  margin-right: 10px;
+}
+</style>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/jscl.js"></script>
+<script src="/js/app.js"></script>
+<h1>ToDo</h1>
+<a href="javascript:addItem()">Add item</a>
+<ul id="items" class="items">
+<!--
+  <li>
+    <span>foo</span><a class="edit" href="javascript:void(0)">Edit</a><a class="delete" href="javascript:void(0)">Delete</a>
+  </li>
+  <li>
+    <span>bar</span><a class="edit" href="javascript:void(0)">Edit</a><a class="delete" href="javascript:void(0)">Delete</a>
+  </li>
+-->
+</ul>
+{% endblock %}
