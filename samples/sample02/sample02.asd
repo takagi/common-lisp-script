@@ -27,9 +27,9 @@
                 ((:file "main" :depends-on ("config" "view" "db"))
                  (:file "web" :depends-on ("view"))
                  (:file "shared")
-                 (:file "script")
-                 (:file "view" :depends-on ("config" "script"))
+                 (:file "view" :depends-on ("config"))
                  (:file "db" :depends-on ("config"))
-                 (:file "config"))))
+                 (:file "config")
+                 (:file "compile" :depends-on ("config")))))
   :description ""
   :in-order-to ((test-op (load-op sample02-test))))

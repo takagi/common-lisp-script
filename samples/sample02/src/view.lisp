@@ -1,7 +1,6 @@
 (in-package :cl-user)
 (defpackage sample02.view
-  (:use :cl
-        :sample02.script)
+  (:use :cl)
   (:import-from :sample02.config
                 :*template-directory*)
   (:import-from :caveman2
@@ -36,11 +35,7 @@
   (encode-json object))
 
 (defun render-index ()
-  (let ((djula:*auto-escape* nil))
-    (let ((common-lisp-script (bundle '(#P"src/shared.lisp"
-                                        #P"src/jquery.lisp"
-                                        #P"src/index.lisp"))))
-      (render #P"index.html" `(:common_lisp_script ,common-lisp-script)))))
+  (render #P"index.html"))
 
 
 ;;
